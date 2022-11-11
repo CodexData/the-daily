@@ -33,7 +33,7 @@ heartbeat_interval = event['d']['heartbeat_interval']/1000
 threading._start_new_thread(heartbeat, (heartbeat_interval, ws))
 
 # Token is your security token and is unique per user. I can explain if you need but this is WIP
-token = 'MjczMTUwNjI3ODgwNjMyMzIx.Gfd8JB.dRw-pXWkNJ13Al1UKlIiA0cPAwbriamLoPU7H8'
+token = '<Your Token Here>'
 payload = {
     'op' : 2,
     'd':{
