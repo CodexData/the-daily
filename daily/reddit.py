@@ -4,11 +4,11 @@ import pandas as pd
 
 # Reddit app API details
 reddit = praw.Reddit(
-    client_id="ir1bN_Ib7NpTcvFQbg5R2A",
-    client_secret="FiDLvgz-XzBlBPuZjA5Putc6DrJmWw",
-    password="Alfie_0101",
-    user_agent="Codex_Data_",
-    username="Codex_Data_",
+    client_id="<YOUR CLIENT ID>",
+    client_secret="<YOUR CLIENT SECRET>",
+    password="<YOUR PASSWORD>",
+    user_agent="<YOUR USER_AGENT NAME>",
+    username="<YOUR USERNAME>",
 )
 
 # Print USERNAME to test functionality
